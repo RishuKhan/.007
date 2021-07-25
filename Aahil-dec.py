@@ -36,7 +36,6 @@ while loop == 'true':
 
 def reg():
     os.system('clear')
-    print logo
     print ''
     print '\t    Generating connection'
     print ''
@@ -351,4 +350,4 @@ def crack_select():
     crack()
 
 
-reg()
+
