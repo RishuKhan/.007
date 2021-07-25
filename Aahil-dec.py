@@ -16,7 +16,6 @@ os.system('clear')
 CorrectUsername = 'Alex'
 loop = 'true'
 while loop == 'true':
-    print logo
     print '\x1b[1;97m               FIRST STEP LOGIN'
     print '\x1b[1;97m'
     print '\x1b[1;97m '
