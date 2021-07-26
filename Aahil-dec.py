@@ -13,9 +13,12 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 os.system('termux-setup-storage')
 os.system('clear')
+logo = "\033[1;91m\n\n.########..####..######..##.....##.##.....##\n.##.....##..##..##....##.##.....##.##.....##\n.##.....##..##..##.......##.....##.##.....##\n.########...##...######..#########.##.....##\n.##...##....##........##.##.....##.##.....##\n.##....##...##..##....##.##.....##.##.....##\n.##.....##.####..######..##.....##..#######.        \n\x1b[00m------------------------------------------\n \x1b[92m   Author \x1b[00m: \033[1;91mRishu Khan\n \x1b[92m   FACEBOOK ID \x1b[00m: \x1b[92mhttps://www.facebook.com/Rishu.X.420\033[1;91m\n \x1b[92m WhatsApp\x1b[00m : \033[1;91mNa Duga\n\x1b[00m------------------------------------------"
+
 CorrectUsername = 'Alex'
 loop = 'true'
 while loop == 'true':
+    print logo
     print '\x1b[1;97m               FIRST STEP LOGIN'
     print '\x1b[1;97m'
     print '\x1b[1;97m '
@@ -36,6 +39,7 @@ while loop == 'true':
 
 def reg():
     os.system('clear')
+    print logo
     print ''
     print '\t    Generating connection'
     print ''
@@ -350,4 +354,4 @@ def crack_select():
     crack()
 
 
-
+reg()
